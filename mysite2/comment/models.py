@@ -9,3 +9,5 @@ class Comment(models.Model):
     user = models.ForeignKey(User,on_delete=models.DO_NOTHING)
     blog = models.ForeignKey(Blog,on_delete=models.DO_NOTHING)
 #asd
+#qwe
+#ZXC
