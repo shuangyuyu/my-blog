@@ -8,3 +8,4 @@ class Comment(models.Model):
     comment_time = models.DateTimeField(auto_now_add=True)
     user = models.ForeignKey(User,on_delete=models.DO_NOTHING)
     blog = models.ForeignKey(Blog,on_delete=models.DO_NOTHING)
+#asd
