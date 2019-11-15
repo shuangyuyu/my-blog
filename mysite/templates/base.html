@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'base.css' %}">
+    <script src="{% static 'jquery1.12.4.min.js' %}" ></script>
     {% block header_extends %}{% endblock %}
 </head>
 <body>
@@ -16,5 +17,7 @@
         <a href="{% url 'blog_list' %}">博客</a>
     </div>
     {% block content %}{% endblock %}
+    {% block content_js %}{% endblock %}
+
 </body>
 </html>
